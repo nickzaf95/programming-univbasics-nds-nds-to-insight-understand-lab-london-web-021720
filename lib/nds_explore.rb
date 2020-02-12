@@ -19,5 +19,5 @@ def print_first_directors_movie_titles
     arr[counter] = res[counter][:title]
     counter += 1 
   end
-  arr
+  puts "#{arr[0]}\n#{arr[1]}\n#{arr[2]}\n#{arr[3]}\n#{arr[4]}\n#{arr[5]}\n"
 end

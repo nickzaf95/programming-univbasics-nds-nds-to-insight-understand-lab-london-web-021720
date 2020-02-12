@@ -11,4 +11,13 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  res = directors_database[0][:movies]
+  siz = res.size 
+  arr = []
+  counter = 0 
+  while counter < siz do
+    arr[counter] = res[counter][:title]
+    counter += 1 
+  end
+  arr
 end
